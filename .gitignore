@@ -1,0 +1,16 @@
+# Rust build artifacts
+target/
+
+# Real server keypair — NEVER commit. See README "Generating server keys".
+# `src/server_keys.rs.example` is the placeholder template that goes in git;
+# create your own `src/server_keys.rs` from it with your deployment keypair.
+src/server_keys.rs
+
+# Secrets / env
+.env
+*.env
+
+# Personal dev notes / launchers (not for the public repo)
+claude.sh
+need.txt
+.claude/
