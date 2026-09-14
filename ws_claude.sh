@@ -14,6 +14,6 @@
 
 clear
 
-re WS
+re WS_server_console
 
 exec claude --chrome --continue "$@"
